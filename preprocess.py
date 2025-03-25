@@ -375,7 +375,7 @@ if __name__ == '__main__':
     emg_train_path = os.path.join(emg_dataset, 'train')
     emg_valid_path = os.path.join(emg_dataset, 'valid')
     emg_test_path = os.path.join(emg_dataset, 'test')
-    emg_data = EMGdata(emg_corpus_path, emg_train_path, emg_valid_path, emg_test_path, ecg_train_path, ecg_valid_path, ecg_test_path, trunk_sp=True)
+    emg_data = EMGdata(emg_corpus_path, emg_train_path, emg_valid_path, emg_test_path, ecg_train_path, ecg_valid_path, ecg_test_path, trunk_sp=False)
     emg_data.prepare()
     emg_data.mixture()
 
