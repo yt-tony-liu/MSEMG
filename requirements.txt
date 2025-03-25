@@ -1,0 +1,6 @@
+wfdb
+torch_summary
+ema_pytorch
+librosa
+tqdm
+scipy
