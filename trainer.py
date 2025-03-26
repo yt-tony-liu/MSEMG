@@ -16,7 +16,7 @@ from ema_pytorch import EMA
 from tqdm.auto import tqdm
 
 from model import EMGMAMBA
-from model_large import EMGMAMBA_large
+
 from score import cal_snr, cal_rmse, cal_ARV, cal_CC, cal_KR, cal_MF, cal_prd, cal_R2
 from utils import check_folder, get_filepaths, exists, has_int_squareroot, cycle, num_to_groups, check_path
 import matplotlib.pyplot as plt
